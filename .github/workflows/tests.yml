@@ -43,7 +43,7 @@ jobs:
     container:
       image: docker.io/library/fedora:latest
     steps:
-    - uses: actions/checkout@v2.4.0
+    - uses: actions/checkout@v3
     - name: Install dependencies
       run: |
         dnf -y install python3-pylint
