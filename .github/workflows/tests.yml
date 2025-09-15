@@ -126,7 +126,7 @@ jobs:
         run: sudo apt-get install -y libgpgme-dev
 
       - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v3
+        uses: golangci/golangci-lint-action@v8
         with:
           version: v1.51.0
           args: --verbose --timeout 5m0s
